@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.topo{
+    background-color: blueviolet;
+    color: white;
+    padding: 24px;
+}
+
+.topo h1{
+    display: flex;
+    justify-content: center;
+}
+
+.topo p{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-horizontal ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.menu-horizontal a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 2px black;
+}
+
+.menu-horizontal a:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.menu-horizontal .submenu{
+    display: none;
+}
+
+.menu-horizontal li:hover .submenu{
+    display: block;
+}
+
+.menu-horizontal a{
+    display: block;
+    margin-top: 10px;
+}
+
+.pagina{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 1050px;
+    margin: 24px auto;
+}
+
+.conteudo{
+    flex: 1;
+}
+
+.section{
+    padding: 20px;
+    margin-bottom: 16px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.section h2{
+    color: black;
+}
+
+.section p{
+    color: black;
+}
+
+.imagem{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+
+.lista-conteudo{
+    font-size: 18px;
+    list-style: upper-roman;
+    color: black;
+}
+
